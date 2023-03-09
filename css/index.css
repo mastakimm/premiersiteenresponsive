@@ -1,0 +1,97 @@
+/* **** #6CA0E0 ***** bleu ciel */
+/* **** #2258E0 ***** bleu foncé */
+
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* ******header****** */
+.header {
+    background-color: #020000;
+    color: #ffffff;
+    height: 70px;
+}
+
+.logo {
+    font-weight: bold;
+    float: left;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.logo a:hover {
+    color:#2258E0 ;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+.navbar a:hover {
+    color: #2258E0;
+}
+
+
+
+/* ******bannière***** */
+.banner {
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.9;
+    height: 80vh;
+
+}
+
+
+
+/* *********articles********* */
+
+.articles {
+    background-color: #ffffff;
+    border: 0.05em solid #020000;
+    border-radius: 90% 10% 93% 7% / 0% 100% 0% 100%;
+    opacity: 0.85;
+}
+
+.articles p {
+    font-size: 1.5em;
+}
+
+.articles p, h3 {
+    margin: 10px;
+}
+
+
+
+/* ************séparation************* */
+
+.séparation {
+    height: 5vh;
+}
+
+
+/* *********témoignages************ */
+
+
+/* ***********footer*************** */
+
