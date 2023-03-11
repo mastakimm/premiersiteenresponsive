@@ -13,11 +13,18 @@
 <header>
     <div class="container-fluid header">
          <a href="./index.html" class="logo" > Mastakimm<br>Coaching</a>
-            <nav class="navbar">   
-                <a href="./index.html">Accueil</a>
-                <a href="./html/quisuisje.html">Qui-Suis-Je</a>
-                <a href="./html/services.html">Services</a>
-                <a href="./html/contact.html">Contact</a>
+            
+         <button class="menuhamburger" aria-controls="navbar" aria-expanded="false"><span class="sr-only"> Menu </span>
+        </button>
+
+
+            <nav>  
+                <ul id="navbar" data-visible="false" class="navbar">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./html/quisuisje.html">A-Propos</a></li>
+                    <li><a href="./html/services.html">Services</a></li>
+                    <li><a href="./html/contact.html">Contact</a></li>
+                </ul> 
             </nav>  
     </div>
 </header>
@@ -99,7 +106,10 @@
             <img src="./images/logo-discord-dark-50px.png" alt="logo-discord">
             <a target="_blank" href="#" class="lien-icone"></a>
             <img src="./images/logo-mail-dark 50px.png" alt="logo-mail">  
-        </footer>
+        <div class="container copyright">
+                <p>  Copyright ©, Tout droit résèrvés ! </p>
+        </div>
+    </footer>
 
 
 </body>
