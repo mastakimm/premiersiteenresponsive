@@ -78,6 +78,10 @@ a, a:hover{
         transform: translateX(100%);
     }
 
+    .navbar[data-visible="true"] {
+        transform: translateX(0%);
+    } 
+
     .menuhamburger {
         position: absolute;
         background: url(../images/uwu.png);
@@ -138,11 +142,22 @@ a, a:hover{
 
 /* *********témoignages************ */
 
+.témoignages {
+    background-color: red .0.2;
+    
+}
+
 
 /* ***********footer*************** */
 
-.footer {
-    position: absolute;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+.footer img {
+    display: flex;
+    margin-bottom: 1rem;
+    position:relative;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
