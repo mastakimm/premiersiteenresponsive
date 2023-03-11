@@ -1,0 +1,152 @@
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    overflow-x: hidden;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* ******header****** */
+.header {
+    background-color: #020000;
+    color: #ffffff;
+    height: 7.5rem;
+}
+
+.logo {
+    font-weight: bold;
+    float: left;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+.logo a:hover {
+    color:#2258E0 ;
+}
+
+.navbar {
+    float: right;
+    list-style-type: none;
+    height: 6.5rem;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin-top: 2rem;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 2rem;
+    
+}
+
+.navbar a:hover {
+    color: #2258E0;
+}
+
+.menuhamburger {
+    display:none;
+}
+
+/* ************** media query ******************** */
+
+@media (max-width: 735px) {
+    .navbar {
+        position: fixed;
+        inset: 0 0 0 55%;
+        background: black;
+        z-index: 100;
+        height: 100vh;
+        flex-direction: column;
+        padding: min(30vh, 10rem)2em;
+        transform: translateX(100%);
+        transition: 350ms ease-out;
+    }
+
+    .navbar[data-visible="true"] {
+        transform: translateX(0%);
+    } 
+
+    .menuhamburger {
+        position: absolute;
+        background: url(../images/uwu.png);
+        background-repeat: no-repeat;
+        background-color: white;
+        width: 1.6rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+        z-index: 1000;
+        border: none;
+        display: block;
+    }
+}
+
+/* ******bannière***** */
+.banner {
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.9;
+    height: 80vh;
+}
+
+/* ***********************Services************************** */
+.services {
+    width: 20vw;
+    text-align: center;
+    border-style: solid;
+}
+
+.services h3 {
+    padding: 1rem;
+    font-size: bold;
+    text-transform: uppercase;
+}
+
+.services p {
+    padding: 1rem;
+}
+
+
+
+
+/* ************séparation************* */
+
+.séparation {
+    border: none;
+    height: 10vh;
+}
+
+/* ***********footer*************** */
+
+.footer img {
+    display: flex;
+    margin-bottom: 1rem;
+    position:relative;
+    padding-left: 2rem;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

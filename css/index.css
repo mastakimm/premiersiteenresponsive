@@ -64,7 +64,7 @@ a, a:hover{
     display:none;
 }
 
-/* ************** media querie ******************** */
+/* ************** media query ******************** */
 
 @media (max-width: 735px) {
     .navbar {
@@ -76,6 +76,7 @@ a, a:hover{
         flex-direction: column;
         padding: min(30vh, 10rem)2em;
         transform: translateX(100%);
+        transition: 350ms ease-out;
     }
 
     .navbar[data-visible="true"] {
@@ -117,7 +118,7 @@ a, a:hover{
 
 .articles {
     background-color: #ffffff;
-    border: 0.05em solid #020000;
+    border: 0.10em solid #020000;
     border-radius: 90% 10% 93% 7% / 0% 100% 0% 100%;
     opacity: 0.85;
 }
@@ -142,10 +143,6 @@ a, a:hover{
 
 /* *********témoignages************ */
 
-.témoignages {
-    background-color: red .0.2;
-    
-}
 
 
 /* ***********footer*************** */
@@ -154,6 +151,7 @@ a, a:hover{
     display: flex;
     margin-bottom: 1rem;
     position:relative;
+    padding-left: 2rem;
 }
 
 .copyright {

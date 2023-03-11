@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +7,72 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/quisuisje.css">
+    <script src="../js/nav.js" defer></script>
 </head>
-<div class="container fluid">
-    <div class="raw">
-        <nav class="navbar">
-            <a href="./index.html" class="logo" > Mastakimm<br>Coaching et Dévellopement</a>
-            <ol>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../html/quisuisje.html">Qui-Suis-Je</a></li>
-                <li><a href="../html/services.html">Services</a></li>
-                <li><a href="../html/contact.html">Contact</a></li>
-            </ol>
-        </nav>
+<body>  
+
+<header>
+    <div class="container-fluid header">
+         <a href="./index.html" class="logo" > Mastakimm<br>Coaching</a>
+            
+         <button class="menuhamburger" aria-controls="navbar" aria-expanded="false"><span class="sr-only"> Menu </span>
+        </button>
+
+
+            <nav>  
+                <ul id="navbar" data-visible="false" class="navbar">
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../html/quisuisje.html">A-Propos</a></li>
+                    <li><a href="../html/services.html">Services</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                </ul> 
+            </nav>  
+    </div>
+</header>
+
+<section class="container-fluid banner">
+    <img src="../images/ban.jpg" alt="bannière">
+</section>
+
+<hr class="container-fluid séparation">
+
+<div class="container-fluid photo">
+    <div class="row">
+        <div class="col-8">
+            <img id="#" alt="photo de Mastakimm">
+        </div>
+        <div class="col-4 quisuisje">
+            <h2>Mon nom</h2>
+            <h3>Qualifications</h3>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ab cum impedit, 
+            tenetur, dolor omnis, minima voluptates doloribus distinctio quaerat aliquam 
+            ipsa sequi totam facere commodi quasi maiores iste amet.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque delectus fugiat 
+            adipisci maiores consequatur odio repellendus esse animi mollitia ab.
+            </p>   
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, doloribus.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, doloribus.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, doloribus.
+            </p>
+        </div>
     </div>
 </div>
-<body>
-    
+
+<hr class="container-fluid séparation">
+
+<footer class="container-fluid footer">
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100090983885730" class="lien-icone"></a>
+        <img src="../images/logo-facebook-dark 50px.png" alt="logo-facebook">
+        <a target="_blank" href="https://discord.gg/ryKkkC9Wn7" class="lien-icone"></a>
+        <img src="../images/logo-discord-dark-50px.png" alt="logo-discord">
+        <a target="_blank" href="mailto: mastakimmcoaching@hotmail.com" class="lien-icone"></a>
+        <img src="../images/logo-mail-dark 50px.png" alt="logo-mail">  
+    <div class="container copyright">
+            <p>  Copyright ©, Tout droit résèrvés ! </p>
+    </div>
+</footer>
+
+
 </body>
 </html>
