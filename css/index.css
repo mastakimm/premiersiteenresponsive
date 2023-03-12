@@ -37,8 +37,8 @@ a, a:hover{
     margin: 2rem;
 }
 
-.logo a:hover {
-    color:#2258E0 ;
+.header a:hover {
+    color: hsl(0,100%,27%);
 }
 
 .navbar {
@@ -57,7 +57,7 @@ a, a:hover{
 }
 
 .navbar a:hover {
-    color: #2258E0;
+    color: hsl(0,100%,27%);
 }
 
 .menuhamburger {
@@ -108,7 +108,6 @@ a, a:hover{
 .banner img {
     width: 100%;
     max-width: 100%;
-    opacity: 0.9;
     height: 80vh;
 }
 
@@ -116,19 +115,34 @@ a, a:hover{
 
 /* *********articles********* */
 
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+}
+
 .articles {
-    background-color: #ffffff;
+    background-color: rgba(139, 18, 18, 0.774);
     border: 0.10em solid #020000;
     border-radius: 90% 10% 93% 7% / 0% 100% 0% 100%;
-    opacity: 0.85;
+    
 }
 
 .articles p {
     font-size: 1.5em;
+    margin: 2rem;
 }
 
-.articles p, h3 {
-    margin: 10px;
+.articles h3 {
+    margin: 1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 
@@ -136,7 +150,7 @@ a, a:hover{
 /* ************séparation************* */
 
 .séparation {
-    height: 10vh;
+    height: 15vh;
     border: none;
 }
 
